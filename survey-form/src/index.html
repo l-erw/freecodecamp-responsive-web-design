@@ -1,0 +1,119 @@
+<head> 
+  <title>Newsletter Form</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Quicksand:wght@300;400&family=Varela+Round&display=swap');
+    </style>
+  </head>
+<div class="container">
+<header>  
+    <h1 id="title">Newsletter</h1>
+    <p id="description">Please complete this form to sign up</p>
+  </header>
+  
+  <form id="survey-form" class="form-container">
+      <div class="form-style">
+      <label id="name-label"> Name:</label>
+      <input id="name" 
+             type=text
+             required 
+             class="input-field" 
+             placeholder="Enter your name"> 
+        </div>
+     
+    <div class="form-style">
+      <label id="email-label"> Email:</label> 
+      <input id="email" 
+             type=email 
+             required 
+             class="input-field" 
+             placeholder="Enter your email">
+    </div>
+
+    <div class="form-style">
+      <label id="number-label"> Years in industry:</label>
+      <input type=number 
+             min=1 max=50 
+             id="number" 
+             class="input-field"
+             placeholder="Number of years in industry">
+    </div>
+       
+    <div class="form-style">
+     <label>Industry:</label>
+       
+      <label>
+      <input id="aerospace" 
+             value="aerospace" 
+             type="radio"
+             name="industry">Aerospace</label>
+      <label>
+      <input id="automotive" 
+             value="automotive" 
+             type="radio"
+             name="industry">Automotive</label> 
+   
+      <label>
+      <input id="construction" 
+             value="construction" 
+             type="radio"
+             name="industry">Construction
+      </label>
+      
+      <label>
+      <input id="renewable-energy" 
+             value="renewable-energy" 
+             type="radio"
+             name="industry">Renewable Energy
+      </label>
+    </div>
+     <div class="form-style">
+     <label
+            id="dropdown"> How did you hear about us? </label> 
+      <select 
+            class="dropdown" 
+            id="dropdown">
+        <option disabled selected value>Choose an option</option>
+        <option value="socialmedia">Social media</option>
+        <option value="advertising"> Advertising</option>
+        <option value="wordofmouth">Word of Mouth</option>
+      </select>
+     </div>
+    <div class="form-style">
+      <label id="checkboxes">Preferred contact:</label>
+
+        <label>
+        <input  id="email" 
+                value="email" 
+                type="checkbox" 
+                name="contact-type">Email</label>
+
+        <label>
+        <input  id="phone" 
+                value="phone" 
+                type="checkbox"
+               name="contact-type">Phone</label>
+                
+        <label>
+        <input  id="post" 
+                value="post" 
+                type="checkbox" 
+                name="contact-type">Post</label>
+      
+        <label> 
+        <input  id="no-contact" 
+                value="no-contact" 
+                type="checkbox" 
+                name="contact-type">I don't want to be contacted</label>
+    </div>
+      <div class="form-style">
+     <label id="comments">Any further comments?</label>
+     <textarea name="comments" class="comments-field">  </textarea>
+     </div>
+      <div>
+      <button class="btn" 
+              type=submit 
+              id="submit">SUBMIT</button>     
+    </div>
+  </form>
+  </div>
+  </div>
