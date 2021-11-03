@@ -1,0 +1,96 @@
+body {
+  background-color: #266985;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* CONTAINERS */
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 700px;
+  padding: 0 5em;
+}
+
+@media (max-width: 800px) {
+  .container {
+    padding: 0 2em;
+    width: auto;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+/*   align-items: center; */
+  background-color: #45b59f  /* #338db3 #225e77 */; 
+  padding: 0.8em 1.75em;
+  border-radius: 10px;
+}
+
+
+
+.h1 {
+    font-size: 2rem;
+}
+
+.form-style,
+.input-field,
+.comments-field,
+.dropdown {
+    line-height: 1.5;
+    padding: 0.5em;
+    width: 100%;  
+}
+
+/* FORM STYLES */
+
+.form-style {
+  text-align: left;
+  box-sizing: border-box; 
+  position: static;
+}
+
+label {
+  display: block; 
+}
+
+.input-field,
+.dropdown,
+.comments-field,
+.btn {
+    border-radius: 5px;
+    border: none;
+}
+
+
+.comments-field {
+  padding: 1px;
+  margin: 0;
+  height: 75px;
+  box-sizing: border-box;
+}
+  
+[type='checkbox'],
+[type='radio'] 
+ {
+  margin: 5px;
+  vertical-align: middle;
+  position: relative; 
+  bottom: 1px;
+}
+
+
+.dropdown { 
+  padding: 5px;
+}
+
+.btn {
+  background-color: #5e6160;
+  color: #fff;
+  font-family: Quicksand;
+  padding: 0.75em 3em;
+}

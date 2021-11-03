@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Product Landing Page v1.0</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alice&family=Playfair+Display&display=swap" rel="stylesheet">
+        
+        <title>Orchard Apples Product Landing Page</title>
+    </head>
+ 
+  
+  <body> 
+    <header id="header">
+            <div class="site-title">
+                <h1>Orchard Apples</h1>
+                <img id="header-img" src="https://cdn.pixabay.com/photo/2014/04/03/10/26/apple-310445_960_720.png" alt="company-logo">
+          </div>
+  
+        <nav id="nav-bar"> 
+           <ul class="nav-bar">
+             <li><a class="nav-link" href="#about-us">About Us</a></li>
+             <li><a class="nav-link" href="#our-apples">Our Apples</a></li>
+             <li><a class="nav-link" href="#buy-now">Buy Now</a></li>
+           </ul>  
+        </nav>
+    </header>
+    
+    
+      <section id="about-us" class="about-us">
+      <div class="container">
+          <h2>About Us</h2>
+          <p>Our apples are harvested from our extensive orchards in the UK. We grow several varities and make our own delicious premium cider. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </section>
+    
+   <section id="our-apples" class="inverse" >
+     <div class="container">
+        <h2>Our Apples</h2>
+          <p>Here is a video about harvesting apples, to show you where our apples come from. Orchard Apples have been providing apples to the UK for decades.</p>
+            <iframe id="video" 
+                    class="video"
+                    width="420" 
+                    height="230" 
+                    src="https://www.youtube.com/embed/9KIrAHdGDZk" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+       </div>
+    </section>
+    
+     <section class="contact">
+    <div class="container form-container">  
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <p>Sign up to our newsletter to get the latest apple news</p>
+                <input id="email" 
+                    name="email"
+                    type="email" 
+                    aria-label="email"
+                    placeholder="email address" required> 
+                <br>
+                <input id="submit" 
+                    class="btn-submit"
+                    name="submit"
+                    type="submit"
+                    value="Sign Up">
+        </form>
+    </div>
+    </section>
+
+     <div class="inverse">
+       <div class="container">
+        <h2 id="buy-now">Buy apples and cider</h2>
+        <div class="columns">
+          <div class="col">
+            <p>Royal Gala Apples</p>
+            <img src="https://cdn.pixabay.com/photo/2016/08/12/22/38/apple-1589874_960_720.jpg" alt="royal gala apples">
+            <a class="btn">Add to Cart</a>
+          </div>
+        
+        <div class="col">
+          <p>Bramley Apples</p>
+          <img src="https://cdn.pixabay.com/photo/2016/08/14/11/56/apples-1592588_960_720.jpg" alt="Bramley apples">
+          <a class="btn">Add to Cart</a>
+        </div>
+        
+        <div class="col">
+          <p>Premium Cider</p>
+          <img src="https://cdn.pixabay.com/photo/2016/08/02/12/33/beverages-1563264_960_720.jpg" alt="tops of chilled glass bottles of cider">
+          <a class="btn">Add to Cart</a>
+        </div>
+      </div>
+</div>
+         </div>
+  </body>
+</html>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,208 @@
+html, 
+body {
+  margin: 0;
+  font-size: 1.02rem;
+  letter-spacing: 0.2px;
+  font-family: 'Playfair Display', serif;
+  background-color: #F5F5DC; 
+  color: #000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.inverse {
+  background: #C52525;
+  color: #F5F5DC;
+  padding-top: 20px;
+}
+
+/* Typography */
+
+h1,
+h2 {
+  font-family: 'Alice', serif;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+  color: #F5F5DC
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 0
+}
+
+
+/* Containers */
+
+.container {
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
+  padding: 1em;
+}
+
+/* Header */
+
+#header-img {
+  width: 50px;
+}
+
+.site-title {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    background: green;
+    position: fixed;
+    margin-top: 0;
+    padding: 0.5em 0;
+    z-index: 10;
+    width: 100%
+}
+
+.about-us {
+    padding-top: 150px;
+    margin: 0 auto;
+}
+
+/* Navigation */
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+nav li {
+  margin: 0 1em;  
+}
+
+.nav-link {
+  color: #F5F5DC;
+  font-family: 'Alice', serif;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #000;
+}
+
+
+/* Video */
+
+.video {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  padding-bottom: 2em;
+}
+
+/* Flex styles */
+
+.columns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.col {
+  width: 29%;
+  padding: 1em 0.75em;
+  text-align: center;
+  background-color: #F5F5DC;
+  color: #000;
+  border-radius: 8px;
+  
+}
+
+
+@media (max-width: 700px) {
+  .columns {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .col {
+    width: 75%;
+    margin: 1em;
+    padding: 1em;
+  }
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Buttons */
+
+.btn, 
+.btn-submit {
+  background-color: #C52525;
+  color: #fff;
+  font-family: 'Alice', serif;
+  border-radius: 8px;
+  
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.1rem;
+  margin: 0.75em 0;
+  padding: 0.75em 1.5em;
+}
+
+.btn-submit {
+  border: none;
+  font-size: inherit;
+  letter-spacing: 1px;
+  width: 50%;  
+  padding: 0.5em;
+}
+
+.btn:hover,
+.btn:focus,
+.btn-submit:hover,
+.btn-submit:focus  {
+  background-color: green;
+}
+
+
+
+
+/* Form */
+.form-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+input {
+  font-family: inherit;
+  border-radius: 5px;
+  border: 1px solid grey;
+  line-height: 1.5;
+  padding: 0.25em;
+  margin-bottom: 1em;
+  text-align: center;
+  width: 80%;
+}
