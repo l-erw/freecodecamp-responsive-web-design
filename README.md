@@ -15,7 +15,7 @@ Dummy newsletter sign up form.
 
 ## Technical Documentation Page
 
-Brief introduction to CSS. Content taken from [MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
+Brief introduction to CSS. Content taken from [MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps).
 
 ## Tribute Page
 
