@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Personal Portfolio Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700;800&family=Quicksand&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+   
+    <body>
+        
+        <div class="navbar">
+        <nav id="navbar">
+            <ul>
+                <li><a href="#welcome-section">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+        
+        
+        <header id="welcome-section" class="gradient-background">
+            <div class="container transparent-background-box">
+                <h1>Hello, my name is Lizzie</h1>
+                <p class="accent-text">I'm a Front End Developer</p>
+                <div class="social-icons">
+            <a href="https://www.linkedin.com/in/lizzie-e-a205aab4/" class="fa fa-linkedin"></a>
+            <a href="https://twitter.com/l_erwood" class="fa fa-twitter"></a>
+            <a href="https://github.com/l-erw" id="profile-link" target="_blank" class="fa fa-github"></a>
+                </div>
+            </div>
+        </header>
+        
+       <section class="solid-background" id="projects">
+           <div class="container">
+        <h2>Here are some things I've made</h2>
+        <div class="columns">
+          <div class="project-tile">
+              <a href="https://codepen.io/lerw/full/mdMmgGw">
+              <img src="https://l-erw.github.io/hosted-assets/survey-form.png" alt="survey form">Survey Form</a>
+          </div>
+        
+          <div class="project-tile">
+              <a href="https://codepen.io/lerw/full/ExvKmBK">
+              <img src="https://l-erw.github.io/hosted-assets/tribute-page.png" alt="tribute page">Tribute Page</a>
+
+          </div>
+          
+          <div class="project-tile">
+              <a href="https://codepen.io/lerw/full/NWvNKVo">
+              <img src="https://l-erw.github.io/hosted-assets/product-landing-page.png" alt="product landing page">Product Landing Page</a>
+          </div>
+          
+ 
+        
+      </div>
+</div>
+       </section>
+            
+            <section class="contact gradient-background" id="contact">
+ <div class="container transparent-background-box">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <h2>Say hi!</h2>
+            <label>Name</label>
+            <input id="name" 
+                    name="name"
+                    type="name" 
+                    placeholder="name" required>
+                    
+                <label>Email</label>
+                <input id="email" 
+                    name="email"
+                    type="email" 
+                    placeholder="email address" required> 
+                <label>Message</label>
+                <textarea id="message" 
+                    name="message"
+                    type="text" 
+                    placeholder="your message" required></textarea> 
+                <br>
+                
+                <input id="submit" 
+                    class="btn"
+                    name="submit"
+                    type="submit"
+                    value="Submit">
+        </form>
+    </div>
+    </section>    
+        <footer>© Lizzie Erwood 2021</footer>
+    </body>
+</html>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
